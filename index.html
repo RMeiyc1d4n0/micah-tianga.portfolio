@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume | Micah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="logo">Micah</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="intro.html">Intro Video</a></li>
+      <li><a href="educback.html">Educational Background</a></li>
+      <li><a href="workexp.html">Work Experience</a></li>
+      <li><a href="techstack.html">Tech Stack</a></li>
+      <li><a href="certificates.html">Certificates</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+      <div class="header-text">
+        <h1>Hi, I'm Micah!</h1>
+        <p>YOUR TRUSTED</p>
+        <p class="subtext">Virtual Assistant</p>
+        <p class="additional">Finance Professional | Accounting Assistant | Administrative Assistant</p>
+      </div>
+      <div class="header-photo">
+        <img src="profile.jpg" alt="Your Photo">
+      </div>
+    </div>
+  </header>
+
+  <!-- 🟤 Brown Background Section -->
+  <section id="intro" class="brown-section">
+    <div class="content">
+      <h2>Welcome to My Professional Portfolio</h2>
+      <p>
+        "Behind every successful business is a sharp finance professional guiding strategy, an efficient accounting
+        assistant ensuring accuracy and compliance, and a proactive administrative assistant keeping operations
+        seamless. Together, they don't just support your business — they accelerate it. Invest in the right team,
+        and watch your productivity, profitability, and peace of mind grow."
+      </p>
+    </div>
+  </section>
+
+  <!-- Additional sections can be added here -->
+
+<script>
+  // Toggle mobile menu
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    hamburger.classList.toggle('toggle');
+  });
+</script>
+
+</body>
+</html>

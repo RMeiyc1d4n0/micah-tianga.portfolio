@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Micah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR (same as index.html) -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Micah</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+      <li><a href="intro.html">Intro Video</a></li>
+      <li><a href="educback.html">Educational Background</a></li>
+      <li><a href="workexp.html">Work Experience</a></li>
+      <li><a href="techstack.html">Tech Stack</a></li>
+      <li><a href="certificates.html">Certificates</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  <!-- ▶️ YouTube Intro Video Section -->
+  <section id="video-section">
+    <h2>Watch My Introduction Video</h2>
+    <div class="video-container">
+      <a href="https://youtu.be/yID5QqJEy5A?si=YoZg8E3rr2Wn8xdz" target="_blank">
+        <img src="Brown Minimalist Podcast Promotion Youtube Thumbnail.jpeg" alt="Intro Video Thumbnail">
+      </a>
+      <!-- YouTube logo as the play button -->
+      <a href="https://youtu.be/yID5QqJEy5A?si=YoZg8E3rr2Wn8xdz" target="_blank" class="youtube-button">
+        <img src="4.png" alt="YouTube Play Button">
+      </a>
+    </div>
+  </section>
+
+<script>
+  // Toggle mobile menu
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    hamburger.classList.toggle('toggle');
+  });
+</script>
+
+</body>
+</html>
